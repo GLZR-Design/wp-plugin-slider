@@ -7,8 +7,8 @@
 	"main": "build/index.js",
 	"scripts": {
 		"build": "wp-scripts build",
-	  "build:script": "wp-scripts build src/js/index.js --output-path=assets",
-	  "format": "wp-scripts format",
+		"build:script": "wp-scripts build src/js/index.js --output-path=assets",
+		"format": "wp-scripts format",
 		"lint:css": "wp-scripts lint-style",
 		"lint:js": "wp-scripts lint-js",
 		"packages-update": "wp-scripts packages-update",
