@@ -24,7 +24,7 @@ export default function save() {
 			data-splide={JSON.stringify({
 				type:"loop",
 				perPage:3,
-				focus:1,
+				perMove: 1,
 				gap:"var(--wp--custom--gap)",
 				pagination:false,
 				breakpoints: {
